@@ -1,0 +1,26 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Generated local data and model artifacts
+data/
+backend/models/*.joblib
+backend/models/metrics.json
+*.db
+*.sqlite
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
